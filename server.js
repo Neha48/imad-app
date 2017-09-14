@@ -17,13 +17,6 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-var express = require('express')
-var app = express()
-
-// respond with "hello world" when a GET request is made to the homepage
-app.get('/ui/index.html', function (req, res) {
-  res.send('hello world')
-})
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
