@@ -21,7 +21,7 @@ var express = require('express')
 var app = express()
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/', function (req, res) {
+app.get('/ui/index.html', function (req, res) {
   res.send('hello world')
 })
 // Do not change port, otherwise your app won't run on IMAD servers
